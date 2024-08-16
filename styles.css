@@ -30,19 +30,15 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    padding: 40px;
+main {
     margin: 20px;
-    background: #fff;
-    border-radius: 8px;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-section.visible {
-    opacity: 1;
-    transform: translateY(0);
+section {
+    padding: 40px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
 }
 
 footer {
@@ -51,15 +47,3 @@ footer {
     background: #333;
     color: #fff;
 }
-
-.slide-in {
-    transform: translateX(-100%);
-    opacity: 0;
-    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
-}
-
-.slide-in.visible {
-    transform: translateX(0);
-    opacity: 1;
-}
-
