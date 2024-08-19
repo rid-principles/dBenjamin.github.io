@@ -8,8 +8,28 @@ body {
 header {
     background: #333;
     color: #fff;
-    text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Aligns content to left and right */
+    align-items: center; /* Aligns items vertically */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Ensures the content takes full width */
+    padding: 0 20px; /* Adds padding around header content */
+}
+
+.header-text {
+    text-align: left;
+}
+
+.profile-img {
+    width: 50px;  /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%;  /* Makes the image round */
 }
 
 nav ul {
